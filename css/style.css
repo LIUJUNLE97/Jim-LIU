@@ -9,3 +9,30 @@ h2 {
 h3 {
     margin-top: 10px;
 }
+
+nav {
+    background-color: blue; /* 更改为蓝色 */
+    padding: 1cm;
+    margin-top: 1cm;
+    display: flex; /* 使用 flexbox */
+    justify-content: space-around; /* 横向分布 */
+}
+
+nav ul {
+    list-style-type: none; /* 移除默认的列表样式 */
+    padding: 0; /* 移除内边距 */
+    display: flex; /* 使列表项横向展示 */
+}
+
+nav li {
+    margin: 0 15px; /* 定义列表项之间的间距 */
+}
+
+nav a {
+    color: white; /* 链接文字颜色为白色 */
+    text-decoration: none; /* 移除下划线 */
+}
+
+nav a:hover {
+    text-decoration: underline; /* 悬停时添加下划线 */
+}
